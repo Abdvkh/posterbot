@@ -10,7 +10,8 @@
 CMD*/
 
 questionary.user.saveAnswer(message);
-Bot.sendMessage(lang['info_accepted']);
+let msg = utils.stringTemplateParser(lang['info_accepted'], {message: message});
+Bot.sendMessage(msg);
 
 askQuestion();
 

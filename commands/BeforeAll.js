@@ -10,7 +10,7 @@
 CMD*/
 
 let lang = Libs.Lang.get();
-let questionary = Libs.Questinary;
+let questionary = Libs.Questionary;
 let utils = Libs.Utils;
 let wordsLikeButton = lang.buttons;
 

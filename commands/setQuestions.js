@@ -4,7 +4,7 @@ let channels = {
       admin: 469750202,
       questionary: {
          vacancy: {
-            template: `#Вакансия\n🎯*Срочно требуется* ${answer['post']}\n💼*Требования:* ${answer['gender']} | ${answer['equirements']}\n💼*Рабочее место:* ${answer['placement']}\n💰*Зарплата:* ${answer['salary']}\n☎️*Контакты:* ${answer['contacts']}\n\n#АНГРЕН\n*Angren_jobs  'Буш иш уринлари'*\n | [Ангрен янгиликлари](https://t.me/AngrendaNimaGap) | [Иш уринлари](https://t.me/Angren_jobs) | [Уй жой](https://t.me/Angren_house) | [Автомобил](https://t.me/Angren_cars) | `,
+            template: "#Вакансия\n🎯*Срочно требуется* {{answer['post']}}\n💼*Требования:* {{answer['gender']}} | {{answer['equirements']}}\n💼*Рабочее место:* {{answer['placement']}}\n💰*Зарплата:* {{answer['salary']}}\n☎️*Контакты:* {{answer['contacts']}}\n\n#АНГРЕН\n*Angren_jobs  'Буш иш уринлари'*\n | [Ангрен янгиликлари](https://t.me/AngrendaNimaGap) | [Иш уринлари](https://t.me/Angren_jobs) | [Уй жой](https://t.me/Angren_house) | [Автомобил](https://t.me/Angren_cars) | ",
             questions: {
                post: "[01/06]\nНапишите должность на которую требуется работник.\nНапример: `Продавец`",
                gender: "[02/06]\nРаботник какого пола вам нужен?\nНапример: `Женщина`",
@@ -15,7 +15,7 @@ let channels = {
             }
          },
          resume: {
-            template: `#Резюме\n📝*Кандидат:* ${answer['details']} \n🚻*Пол:* ${answer['gender']} \n💼*Желаемая работа:* ${answer['job']} \n💼*Опыт работы:* ${answer['experience']} \n💰*Желаемая зарплата:* ${answer['salary']} \n☎️*Контакты:* ${answer['contacts']} \n#АНГРЕН\n\n* Angren_jobs  'Буш иш уринлари'*\n| [Ангрен янгиликлари](https://t.me/AngrendaNimaGap) | [Иш уринлари](https://t.me/Angren_jobs) | [Уй жой](https://t.me/Angren_house) | [Автомобил](https://t.me/Angren_cars) |`,
+            template: "#Резюме\n📝*Кандидат:* {{answer['details']}} \n🚻*Пол:* {{answer['gender']}} \n💼*Желаемая работа:* {{answer['job']}} \n💼*Опыт работы:* {{answer['experience']}} \n💰*Желаемая зарплата:* {{answer['salary']}} \n☎️*Контакты:* {{answer['contacts']}} \n#АНГРЕН\n\n* Angren_jobs  'Буш иш уринлари'*\n| [Ангрен янгиликлари](https://t.me/AngrendaNimaGap) | [Иш уринлари](https://t.me/Angren_jobs) | [Уй жой](https://t.me/Angren_house) | [Автомобил](https://t.me/Angren_cars) |",
             questions: {
                details: "[01/06]\nНапишите ваше имя и возраст.\nНапример: `Сарвар 19 лет`",
                gender: "[02/06]\nВаш пол?\nНапример: `Женщина`",
@@ -29,3 +29,4 @@ let channels = {
    }
 }
 Bot.setProperty('channels', channels, 'JSON');
+Bot.sendMessage('Questions are set!');

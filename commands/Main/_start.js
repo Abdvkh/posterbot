@@ -24,6 +24,7 @@ switch(message){
 
 function setLangAndRunMenu(code){
    Libs.Lang.user.setLang(code);
-   Bot.sendMessage(lang.greet);
+   let msg = utils.stringTemplateParser(lang.greet, user)
+   Bot.sendMessage(msg);
    Bot.runCommand("/menu");
 }

@@ -53,9 +53,9 @@ let ruLang = {
       resume: "Резюме"
    },
    chooseChannel: "Выберите канал куда собираетесь сделать пост",
-   greet: `Добро пожаловать ${user.first_name}!`,
+   greet: "Добро пожаловать {{first_name}}!",
    mainMenuButtons: ["Разместить пост", "Помощь"],
-   info_accepted: `Ваши данные получены: *${message}*`,
+   info_accepted: "Ваши данные получены: *{{message}}*",
    where: "В каком канале вы собираетесь опубликовать пост?",
    which_category: "Выберите какой тип поста вы хотите оставить",
    req_confirmed: "Ваша заявка была одобрена и опубликована! Спасибо!",
@@ -70,5 +70,4 @@ if(true  /*level == "Boss"*/){
    Libs.Lang.setup("ru", ruLang);
 
    Bot.sendMessage("Languages are successfully set!");
-   Bot.runCommand("reset");
 }
