@@ -66,7 +66,7 @@ function sendResult() {
             {text: 'Deny', command: 'request 0|' + curChannel['id'] + '|' + user.id}
          ]
       ],
-      'Request from ' + utils.getLinkFor(user) + ':\n'template
+      'Request from ' + utils.getLinkFor(user) + ':\n' + template
    );
 }
 
