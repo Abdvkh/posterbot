@@ -1,6 +1,6 @@
 {
   "bb_sync_version":"1.0",
-  "name":"DemoQuickBot",
+  "name":"angrenrobot",
   "csv_url":null,
-  "git_remote":"git@github.com:Abdvkh/DemoQuickBot.git"
+  "git_remote":"git@github.com:Abdvkh/posterbot.git"
 }
