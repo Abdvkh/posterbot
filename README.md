@@ -1,5 +1,5 @@
-# DemoQuickBot - chat bot
-It is repository for chat bot: [@DemoQuickBot](https://t.me/DemoQuickBot)
+# angrenrobot - chat bot
+It is repository for chat bot: [@angrenrobot](https://t.me/angrenrobot)
 
 ## What it is?
 This repository can be imported to [Bots.Business](https://bots.business) as a worked chat bot.

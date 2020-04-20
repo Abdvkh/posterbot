@@ -1,12 +1,12 @@
 /*CMD
   command: getMenuKeyword
-  help:
+  help: 
   need_reply: true
-  auto_retry_time:
+  auto_retry_time: 
   folder: Main
-  answer:
-  keyboard:
-  aliases:
+  answer: 
+  keyboard: 
+  aliases: 
 CMD*/
 
 let passedMenuKeyword = message;

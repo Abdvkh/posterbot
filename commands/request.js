@@ -1,3 +1,14 @@
+/*CMD
+  command: request
+  help: 
+  need_reply: 
+  auto_retry_time: 
+  folder: 
+  answer: 
+  keyboard: 
+  aliases: 
+CMD*/
+
 let details = params.split("|");
 let acception = details[0];
 let channelId = details[1];

@@ -1,14 +1,13 @@
 /*CMD
   command: getType
-  help:
+  help: 
   need_reply: true
-  auto_retry_time:
+  auto_retry_time: 
   folder: Main
-  answer:
-  keyboard:
-  aliases:
+  answer: 
+  keyboard: 
+  aliases: 
 CMD*/
-
 
 chooseTypeOfQuestionary();
 utils.onWrongInputRun('getType');

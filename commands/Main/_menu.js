@@ -1,12 +1,12 @@
 /*CMD
   command: /menu
   help: главное меню | asosiy menyu
-  need_reply:
-  auto_retry_time:
-  folder:
+  need_reply: 
+  auto_retry_time: 
+  folder: Main
   answer: main
-  keyboard:
-  aliases: asosiy menyu, Главное меню, main menu
+  keyboard: 
+  aliases: asosiy menyu, главное меню, main menu
 CMD*/
 
 let command = {
